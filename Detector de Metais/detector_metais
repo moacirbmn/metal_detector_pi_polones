@@ -1,0 +1,71 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/home/moacirbmn/Documentos/metal_detector_pi_polones/Detector de Metais/detector_metais.sch</h1>
+    <p>seg 21 out 2019 14:37:47 -03</p>
+    <p>Eeschema 5.1.4-e60b266~84~ubuntu18.04.1</p>
+    <p><b>Component Count:</b>80</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1, C7, C8</td><td>3</td><td>22uF/16V</td><td>detector_metais-rescue:CP</td><td></td><td></td><td></td></tr>
+    <tr><td>C2, C4, C16, C21, C24, C26</td><td>6</td><td>100nF</td><td>detector_metais-rescue:C</td><td></td><td></td><td></td></tr>
+    <tr><td>C3</td><td>1</td><td>10nF</td><td>detector_metais-rescue:C</td><td></td><td></td><td></td></tr>
+    <tr><td>C5, C6, C27</td><td>3</td><td>100uF/25V</td><td>detector_metais-rescue:CP</td><td></td><td></td><td></td></tr>
+    <tr><td>C9</td><td>1</td><td>22uF</td><td>detector_metais-rescue:CP</td><td></td><td></td><td></td></tr>
+    <tr><td>C10, C25</td><td>2</td><td>220nF</td><td>detector_metais-rescue:C</td><td></td><td></td><td></td></tr>
+    <tr><td>C11, C12, C13, C14</td><td>4</td><td>1nF</td><td>detector_metais-rescue:C</td><td></td><td></td><td></td></tr>
+    <tr><td>C15</td><td>1</td><td>200nF</td><td>detector_metais-rescue:C</td><td></td><td></td><td></td></tr>
+    <tr><td>C17</td><td>1</td><td>10pF</td><td>detector_metais-rescue:C</td><td></td><td></td><td></td></tr>
+    <tr><td>C18</td><td>1</td><td>47nF</td><td>detector_metais-rescue:C</td><td></td><td></td><td></td></tr>
+    <tr><td>C19</td><td>1</td><td>3,3pF</td><td>detector_metais-rescue:C</td><td></td><td></td><td></td></tr>
+    <tr><td>C20</td><td>1</td><td>10uF/16V</td><td>detector_metais-rescue:CP</td><td></td><td></td><td></td></tr>
+    <tr><td>C22, C23</td><td>2</td><td>1000uF/16V</td><td>detector_metais-rescue:CP</td><td></td><td></td><td></td></tr>
+    <tr><td>D1, D2, D3, D4</td><td>4</td><td>1N4004</td><td>detector_metais-rescue:D</td><td></td><td></td><td></td></tr>
+    <tr><td>DZ1</td><td>1</td><td>3,3v</td><td>detector_metais-rescue:D_Zener</td><td></td><td></td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>BARREL_JACK</td><td>detector_metais-rescue:BARREL_JACK</td><td></td><td></td><td></td></tr>
+    <tr><td>L1</td><td>1</td><td>Bobina</td><td>detector_metais-rescue:L</td><td></td><td></td><td></td></tr>
+    <tr><td>POT1, POT3</td><td>2</td><td>10k</td><td>detector_metais-rescue:POT</td><td></td><td></td><td></td></tr>
+    <tr><td>POT2</td><td>1</td><td>2,2k</td><td>detector_metais-rescue:POT</td><td></td><td></td><td></td></tr>
+    <tr><td>PTR1</td><td>1</td><td>220k</td><td>detector_metais-rescue:POT_TRIM</td><td></td><td></td><td></td></tr>
+    <tr><td>PTR2</td><td>1</td><td>100k</td><td>detector_metais-rescue:POT_TRIM</td><td></td><td></td><td></td></tr>
+    <tr><td>Q1</td><td>1</td><td>BC807-40</td><td>detector_metais-rescue:BC807-40</td><td>TO_SOT_Packages_SMD:SOT-23</td><td></td><td></td></tr>
+    <tr><td>Q2</td><td>1</td><td>BF245A</td><td>detector_metais-rescue:BF245A</td><td>TO_SOT_Packages_THT:TO-92_Molded_Narrow</td><td></td><td></td></tr>
+    <tr><td>Q3</td><td>1</td><td>BC807-40 ou BC327</td><td>detector_metais-rescue:BC807-40</td><td>TO_SOT_Packages_SMD:SOT-23</td><td></td><td></td></tr>
+    <tr><td>Q4</td><td>1</td><td>BD911</td><td>detector_metais-rescue:BD911</td><td>TO_SOT_Packages_THT:TO-220_Vertical</td><td></td><td></td></tr>
+    <tr><td>Q5</td><td>1</td><td>BD140</td><td>detector_metais-rescue:BD140</td><td>TO_SOT_Packages_THT:TO-126_Vertical</td><td></td><td></td></tr>
+    <tr><td>R1</td><td>1</td><td>3,3k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>R2</td><td>1</td><td>18k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>R3</td><td>1</td><td>36k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>R4, R5</td><td>2</td><td>5,6k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>R6</td><td>1</td><td>1M</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>R7, R15, R17, R25</td><td>4</td><td>1k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>R8</td><td>1</td><td>220</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>R9</td><td>1</td><td>100k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>R10</td><td>1</td><td>10k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>R11, R13</td><td>2</td><td>33k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>R12, R14</td><td>2</td><td>47k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>R16, R23</td><td>2</td><td>330</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>R18</td><td>1</td><td>1,2k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>R19, R27</td><td>2</td><td>180</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>R20</td><td>1</td><td>200/0,5W</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>R21</td><td>1</td><td>100</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>R22</td><td>1</td><td>820k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>R24</td><td>1</td><td>150</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>R26</td><td>1</td><td>2,4k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
+    <tr><td>SP1</td><td>1</td><td>Speaker 8ohm 0,5W</td><td>detector_metais-rescue:Speaker</td><td></td><td></td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>7805</td><td>detector_metais-rescue:7805</td><td></td><td></td><td></td></tr>
+    <tr><td>U2, U6, U8</td><td>3</td><td>NE555</td><td>detector_metais-rescue:NE555</td><td></td><td></td><td></td></tr>
+    <tr><td>U3</td><td>1</td><td>7905</td><td>detector_metais-rescue:7905</td><td></td><td></td><td></td></tr>
+    <tr><td>U4</td><td>1</td><td>LM741</td><td>detector_metais-rescue:LM741</td><td></td><td></td><td></td></tr>
+    <tr><td>U5</td><td>1</td><td>4011</td><td>detector_metais-rescue:4011</td><td></td><td></td><td></td></tr>
+    <tr><td>U7</td><td>1</td><td>TL071</td><td>detector_metais-rescue:TL071</td><td></td><td></td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    

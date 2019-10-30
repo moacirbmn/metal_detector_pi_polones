@@ -1,6 +1,35 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
 LIBS:detector_metais-cache
-EELAYER 30 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,23 +44,21 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L detector_metais-rescue:BARREL_JACK J1
+L BARREL_JACK J1
 U 1 1 59DFA391
 P 1500 1600
-AR Path="/59DFA391" Ref="J1"  Part="1" 
-AR Path="/59DF3F23/59DFA391" Ref="J1"  Part="1" 
 F 0 "J1" H 1500 1795 50  0000 C CNN
 F 1 "BARREL_JACK" H 1500 1445 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1500 1600 50  0001 C CNN
+F 2 "" H 1500 1600 50  0001 C CNN
 F 3 "" H 1500 1600 50  0001 C CNN
 	1    1500 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR01
+L GND #PWR1
 U 1 1 59DFA438
 P 1900 1850
-F 0 "#PWR01" H 1900 1600 50  0001 C CNN
+F 0 "#PWR1" H 1900 1600 50  0001 C CNN
 F 1 "GND" H 1900 1700 50  0000 C CNN
 F 2 "" H 1900 1850 50  0001 C CNN
 F 3 "" H 1900 1850 50  0001 C CNN
@@ -41,7 +68,7 @@ $EndComp
 Text HLabel 2050 1500 2    60   Input ~ 0
 12V
 $Comp
-L detector_metais-rescue:NE555 U2
+L NE555 U2
 U 1 1 59DFCA5D
 P 4550 3250
 F 0 "U2" H 4150 3600 50  0000 L CNN
@@ -52,7 +79,7 @@ F 3 "" H 4550 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L detector_metais-rescue:CP C9
+L CP C9
 U 1 1 59DFCAA0
 P 2750 5900
 F 0 "C9" H 2775 6000 50  0000 L CNN
@@ -63,19 +90,18 @@ F 3 "" H 2750 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L detector_metais-rescue:D D1
+L D D1
 U 1 1 59DFCB09
 P 7050 4150
 F 0 "D1" H 7050 4250 50  0000 C CNN
 F 1 "1N4004" H 7050 4050 50  0000 C CNN
 F 2 "" H 7050 4150 50  0001 C CNN
 F 3 "" H 7050 4150 50  0001 C CNN
-F 4 "MC01W08051180R" H 7050 4150 50  0001 C CNN "P/N"
 	1    7050 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L detector_metais-rescue:7905 U3
+L 7905 U3
 U 1 1 59DFCB50
 P 2150 6150
 F 0 "U3" H 2300 5955 50  0000 C CNN
@@ -86,11 +112,9 @@ F 3 "" H 2150 6150 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L detector_metais-rescue:7805 U1
+L 7805 U1
 U 1 1 59DFCC0D
 P 9000 3200
-AR Path="/59DFCC0D" Ref="U1"  Part="1" 
-AR Path="/59DF3F23/59DFCC0D" Ref="U1"  Part="1" 
 F 0 "U1" H 9150 3004 50  0000 C CNN
 F 1 "7805" H 9000 3400 50  0000 C CNN
 F 2 "" H 9000 3200 50  0001 C CNN
@@ -99,10 +123,10 @@ F 3 "" H 9000 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L GND #PWR2
 U 1 1 59DFD201
 P 4550 3800
-F 0 "#PWR02" H 4550 3550 50  0001 C CNN
+F 0 "#PWR2" H 4550 3550 50  0001 C CNN
 F 1 "GND" H 4550 3650 50  0000 C CNN
 F 2 "" H 4550 3800 50  0001 C CNN
 F 3 "" H 4550 3800 50  0001 C CNN
@@ -110,7 +134,7 @@ F 3 "" H 4550 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L detector_metais-rescue:C C4
+L C C4
 U 1 1 59DFD52E
 P 3900 3900
 F 0 "C4" H 3925 4000 50  0000 L CNN
@@ -121,10 +145,10 @@ F 3 "" H 3900 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L GND #PWR4
 U 1 1 59DFD695
 P 3900 4150
-F 0 "#PWR04" H 3900 3900 50  0001 C CNN
+F 0 "#PWR4" H 3900 3900 50  0001 C CNN
 F 1 "GND" H 3900 4000 50  0000 C CNN
 F 2 "" H 3900 4150 50  0001 C CNN
 F 3 "" H 3900 4150 50  0001 C CNN
@@ -132,7 +156,7 @@ F 3 "" H 3900 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L detector_metais-rescue:C C3
+L C C3
 U 1 1 59DFD6CF
 P 3600 3900
 F 0 "C3" H 3625 4000 50  0000 L CNN
@@ -143,10 +167,10 @@ F 3 "" H 3600 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
+L GND #PWR3
 U 1 1 59DFD71B
 P 3600 4150
-F 0 "#PWR03" H 3600 3900 50  0001 C CNN
+F 0 "#PWR3" H 3600 3900 50  0001 C CNN
 F 1 "GND" H 3600 4000 50  0000 C CNN
 F 2 "" H 3600 4150 50  0001 C CNN
 F 3 "" H 3600 4150 50  0001 C CNN
@@ -154,26 +178,24 @@ F 3 "" H 3600 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L detector_metais-rescue:R R1
+L R R1
 U 1 1 59DFD92C
 P 5800 2850
 F 0 "R1" V 5880 2850 50  0000 C CNN
 F 1 "3,3k" V 5800 2850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5730 2850 50  0001 C CNN
+F 2 "" V 5730 2850 50  0001 C CNN
 F 3 "" H 5800 2850 50  0001 C CNN
-F 4 "RC0805FR-073K3L" H 5800 2850 50  0001 C CNN "P/N"
 	1    5800 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L detector_metais-rescue:R R2
+L R R2
 U 1 1 59DFD9B0
 P 5800 3250
 F 0 "R2" V 5880 3250 50  0000 C CNN
 F 1 "18k" V 5800 3250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5730 3250 50  0001 C CNN
+F 2 "" V 5730 3250 50  0001 C CNN
 F 3 "" H 5800 3250 50  0001 C CNN
-F 4 "RR1220P-183-B-T5" H 5800 3250 50  0001 C CNN "P/N"
 	1    5800 3250
 	1    0    0    -1  
 $EndComp
@@ -182,7 +204,7 @@ Text HLabel 5850 2550 2    60   Input ~ 0
 Text HLabel 3450 2350 2    60   Input ~ 0
 12V
 $Comp
-L detector_metais-rescue:CP C7
+L CP C7
 U 1 1 59DFE649
 P 6300 4450
 F 0 "C7" H 6325 4550 50  0000 L CNN
@@ -193,7 +215,7 @@ F 3 "" H 6300 4450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L detector_metais-rescue:CP C8
+L CP C8
 U 1 1 59DFE7E1
 P 6300 4850
 F 0 "C8" H 6325 4950 50  0000 L CNN
@@ -204,43 +226,40 @@ F 3 "" H 6300 4850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L detector_metais-rescue:D D3
+L D D3
 U 1 1 59DFEA3E
 P 7050 4850
 F 0 "D3" H 7050 4950 50  0000 C CNN
 F 1 "1N4004" H 7050 4750 50  0000 C CNN
 F 2 "" H 7050 4850 50  0001 C CNN
 F 3 "" H 7050 4850 50  0001 C CNN
-F 4 "MC01W08051180R" H 7050 4850 50  0001 C CNN "P/N"
 	1    7050 4850
 	1    0    0    -1  
 $EndComp
 $Comp
-L detector_metais-rescue:D D2
+L D D2
 U 1 1 59DFEA8E
 P 7050 4500
 F 0 "D2" H 7050 4600 50  0000 C CNN
 F 1 "1N4004" H 7050 4400 50  0000 C CNN
 F 2 "" H 7050 4500 50  0001 C CNN
 F 3 "" H 7050 4500 50  0001 C CNN
-F 4 "MC01W08051180R" H 7050 4500 50  0001 C CNN "P/N"
 	1    7050 4500
 	-1   0    0    1   
 $EndComp
 $Comp
-L detector_metais-rescue:D D4
+L D D4
 U 1 1 59DFEAE5
 P 7050 5200
 F 0 "D4" H 7050 5300 50  0000 C CNN
 F 1 "1N4004" H 7050 5100 50  0000 C CNN
 F 2 "" H 7050 5200 50  0001 C CNN
 F 3 "" H 7050 5200 50  0001 C CNN
-F 4 "MC01W08051180R" H 7050 5200 50  0001 C CNN "P/N"
 	1    7050 5200
 	-1   0    0    1   
 $EndComp
 $Comp
-L detector_metais-rescue:CP C5
+L CP C5
 U 1 1 59DFF146
 P 8100 4250
 F 0 "C5" H 8125 4350 50  0000 L CNN
@@ -253,7 +272,7 @@ $EndComp
 Text HLabel 8100 2800 2    60   Input ~ 0
 12V
 $Comp
-L detector_metais-rescue:CP C6
+L CP C6
 U 1 1 59DFF5FC
 P 9000 4250
 F 0 "C6" H 9025 4350 50  0000 L CNN
@@ -264,7 +283,7 @@ F 3 "" H 9000 4250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L detector_metais-rescue:CP C1
+L CP C1
 U 1 1 59DFFAE4
 P 9800 3350
 F 0 "C1" H 9825 3450 50  0000 L CNN
@@ -275,7 +294,7 @@ F 3 "" H 9800 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L detector_metais-rescue:C C2
+L C C2
 U 1 1 59DFFBD0
 P 10150 3350
 F 0 "C2" H 10175 3450 50  0000 L CNN
@@ -292,7 +311,7 @@ Text HLabel 1750 5650 0    60   Input ~ 0
 Wire Wire Line
 	1800 1600 1850 1600
 Wire Wire Line
-	1850 1600 1850 1650
+	1850 1600 1850 1700
 Wire Wire Line
 	1850 1700 1800 1700
 Wire Wire Line
@@ -309,7 +328,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 4150 3900 4050
 Wire Wire Line
-	3600 2550 3600 3050
+	3600 2550 3600 3750
 Wire Wire Line
 	3600 3050 4050 3050
 Wire Wire Line
@@ -319,13 +338,13 @@ Wire Wire Line
 Wire Wire Line
 	5400 2550 5400 3450
 Wire Wire Line
-	5050 3450 5400 3450
+	5050 3450 5800 3450
 Connection ~ 3600 3050
 Connection ~ 5400 3450
 Wire Wire Line
 	5800 3450 5800 3400
 Wire Wire Line
-	5800 3000 5800 3050
+	5800 3000 5800 3100
 Wire Wire Line
 	5800 3050 5300 3050
 Wire Wire Line
@@ -340,7 +359,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 3450 4050 3450
 Wire Wire Line
-	3350 2350 3350 2800
+	3350 2350 3350 3450
 Wire Wire Line
 	3450 2350 3350 2350
 Wire Wire Line
@@ -351,7 +370,7 @@ Connection ~ 3350 2800
 Wire Wire Line
 	5050 3050 5150 3050
 Wire Wire Line
-	5950 4450 5950 4650
+	5950 4450 5950 4850
 Wire Wire Line
 	5950 4450 6150 4450
 Wire Wire Line
@@ -364,13 +383,13 @@ Connection ~ 5950 4650
 Wire Wire Line
 	6900 4150 6750 4150
 Wire Wire Line
-	6750 4150 6750 4300
+	6750 4150 6750 4500
 Wire Wire Line
 	6750 4500 6900 4500
 Wire Wire Line
 	6900 4850 6750 4850
 Wire Wire Line
-	6750 4850 6750 5000
+	6750 4850 6750 5200
 Wire Wire Line
 	6750 5200 6900 5200
 Wire Wire Line
@@ -390,7 +409,7 @@ Connection ~ 6750 4300
 Wire Wire Line
 	7200 4500 7350 4500
 Wire Wire Line
-	7350 4500 7350 4700
+	7350 4500 7350 4850
 Wire Wire Line
 	7350 4850 7200 4850
 Wire Wire Line
@@ -401,17 +420,17 @@ Wire Wire Line
 	8100 4700 7350 4700
 Connection ~ 7350 4700
 Wire Wire Line
-	9000 3450 9000 3700
+	9000 3450 9000 4100
 Wire Wire Line
 	9000 4400 9000 5200
 Wire Wire Line
-	9000 5200 8450 5200
+	9000 5200 7200 5200
 Wire Wire Line
-	8100 4100 8100 3700
+	8100 4100 8100 2800
 Wire Wire Line
 	7550 4150 7550 3700
 Wire Wire Line
-	7550 3700 8100 3700
+	7550 3700 10150 3700
 Connection ~ 8100 3700
 Connection ~ 9000 3700
 Wire Wire Line
@@ -420,9 +439,9 @@ Wire Wire Line
 	8450 3150 8450 5200
 Connection ~ 8450 5200
 Wire Wire Line
-	9800 2800 9800 3150
+	9800 2800 9800 3200
 Wire Wire Line
-	9400 3150 9800 3150
+	9400 3150 10150 3150
 Wire Wire Line
 	10150 3150 10150 3200
 Connection ~ 9800 3150
@@ -476,19 +495,19 @@ Wire Notes Line
 Wire Wire Line
 	2750 6050 2750 6200
 Wire Wire Line
-	2550 6200 2750 6200
+	2550 6200 3150 6200
 Wire Wire Line
 	2750 5650 2750 5750
 Wire Wire Line
-	1750 5650 2150 5650
+	1750 5650 2750 5650
 Wire Wire Line
 	2150 5650 2150 5900
 Connection ~ 2150 5650
 $Comp
-L power:GND #PWR05
+L GND #PWR5
 U 1 1 59E018EF
 P 1700 6450
-F 0 "#PWR05" H 1700 6200 50  0001 C CNN
+F 0 "#PWR5" H 1700 6200 50  0001 C CNN
 F 1 "GND" H 1700 6300 50  0000 C CNN
 F 2 "" H 1700 6450 50  0001 C CNN
 F 3 "" H 1700 6450 50  0001 C CNN
@@ -512,42 +531,4 @@ Wire Notes Line
 	1350 6800 1350 5500
 Wire Wire Line
 	2050 1500 1800 1500
-Wire Wire Line
-	1850 1650 1850 1700
-Wire Wire Line
-	3600 3050 3600 3750
-Wire Wire Line
-	5400 3450 5800 3450
-Wire Wire Line
-	5800 3050 5800 3100
-Wire Wire Line
-	3350 2800 3350 3450
-Wire Wire Line
-	5950 4650 5950 4850
-Wire Wire Line
-	6750 5000 6750 5200
-Wire Wire Line
-	6750 4300 6750 4500
-Wire Wire Line
-	7350 4700 7350 4850
-Wire Wire Line
-	8100 3700 8100 2800
-Wire Wire Line
-	8100 3700 9000 3700
-Wire Wire Line
-	9000 3700 9000 4100
-Wire Wire Line
-	9000 3700 9800 3700
-Wire Wire Line
-	8450 5200 7200 5200
-Wire Wire Line
-	9800 3150 9800 3200
-Wire Wire Line
-	9800 3150 10150 3150
-Wire Wire Line
-	9800 3700 10150 3700
-Wire Wire Line
-	2150 5650 2750 5650
-Wire Wire Line
-	2750 6200 3150 6200
 $EndSCHEMATC

@@ -1,6 +1,35 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
 LIBS:detector_metais-cache
-EELAYER 30 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +44,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L detector_metais-rescue:NE555 U6
+L NE555 U6
 U 1 1 59E08192
 P 2600 3300
 F 0 "U6" H 2200 3650 50  0000 L CNN
@@ -26,7 +55,7 @@ F 3 "" H 2600 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L detector_metais-rescue:L L1
+L L L1
 U 1 1 59E08593
 P 5950 4200
 F 0 "L1" V 5900 4200 50  0000 C CNN
@@ -37,7 +66,7 @@ F 3 "" H 5950 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L detector_metais-rescue:D_Zener DZ1
+L D_Zener DZ1
 U 1 1 59E08668
 P 7050 3900
 F 0 "DZ1" H 7050 4000 50  0000 C CNN
@@ -48,7 +77,7 @@ F 3 "" H 7050 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L detector_metais-rescue:BD911 Q4
+L BD911 Q4
 U 1 1 59E086D3
 P 6150 4800
 F 0 "Q4" H 6400 4875 50  0000 L CNN
@@ -59,7 +88,7 @@ F 3 "" H 6150 4800 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L detector_metais-rescue:BC807-40 Q3
+L BC807-40 Q3
 U 1 1 59E08779
 P 4900 4100
 F 0 "Q3" H 4800 4250 50  0000 L CNN
@@ -70,7 +99,7 @@ F 3 "" H 4900 4100 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L detector_metais-rescue:C C16
+L C C16
 U 1 1 59E08D6F
 P 1900 3950
 F 0 "C16" H 1925 4050 50  0000 L CNN
@@ -81,7 +110,7 @@ F 3 "" H 1900 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L detector_metais-rescue:C C15
+L C C15
 U 1 1 59E08E6A
 P 1600 3950
 F 0 "C15" H 1625 4050 50  0000 L CNN
@@ -92,10 +121,10 @@ F 3 "" H 1600 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR010
+L GND #PWR10
 U 1 1 59E08F98
 P 1900 4200
-F 0 "#PWR010" H 1900 3950 50  0001 C CNN
+F 0 "#PWR10" H 1900 3950 50  0001 C CNN
 F 1 "GND" H 1900 4050 50  0000 C CNN
 F 2 "" H 1900 4200 50  0001 C CNN
 F 3 "" H 1900 4200 50  0001 C CNN
@@ -103,10 +132,10 @@ F 3 "" H 1900 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L GND #PWR9
 U 1 1 59E08FFE
 P 1600 4200
-F 0 "#PWR09" H 1600 3950 50  0001 C CNN
+F 0 "#PWR9" H 1600 3950 50  0001 C CNN
 F 1 "GND" H 1600 4050 50  0000 C CNN
 F 2 "" H 1600 4200 50  0001 C CNN
 F 3 "" H 1600 4200 50  0001 C CNN
@@ -122,14 +151,14 @@ Wire Wire Line
 Wire Wire Line
 	1900 3300 1900 3800
 Wire Wire Line
-	2100 3100 1900 3100
+	2100 3100 1600 3100
 Wire Wire Line
 	1600 3100 1600 3800
 $Comp
-L power:GND #PWR08
+L GND #PWR8
 U 1 1 59E091D5
 P 2600 3800
-F 0 "#PWR08" H 2600 3550 50  0001 C CNN
+F 0 "#PWR8" H 2600 3550 50  0001 C CNN
 F 1 "GND" H 2600 3650 50  0000 C CNN
 F 2 "" H 2600 3800 50  0001 C CNN
 F 3 "" H 2600 3800 50  0001 C CNN
@@ -141,9 +170,9 @@ Wire Wire Line
 Wire Wire Line
 	2000 3500 2100 3500
 Wire Wire Line
-	2000 2550 2000 2750
+	2000 2550 2000 3500
 Wire Wire Line
-	2600 2550 2600 2750
+	2600 2550 2600 2900
 Wire Wire Line
 	2600 2750 2000 2750
 Connection ~ 2000 2750
@@ -152,7 +181,7 @@ Text HLabel 2050 2550 2    60   Input ~ 0
 Wire Wire Line
 	2000 2550 2050 2550
 $Comp
-L detector_metais-rescue:POT_TRIM PTR2
+L POT_TRIM PTR2
 U 1 1 59E096C2
 P 3350 2550
 F 0 "PTR2" V 3175 2550 50  0000 C CNN
@@ -169,23 +198,22 @@ Wire Wire Line
 Wire Wire Line
 	3150 2300 3150 2550
 Wire Wire Line
-	2600 2550 3150 2550
+	2600 2550 3200 2550
 Connection ~ 3150 2550
 Connection ~ 2600 2750
 $Comp
-L detector_metais-rescue:R R15
+L R R15
 U 1 1 59E097F2
 P 3450 3500
 F 0 "R15" V 3530 3500 50  0000 C CNN
 F 1 "1k" V 3450 3500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3380 3500 50  0001 C CNN
+F 2 "" V 3380 3500 50  0001 C CNN
 F 3 "" H 3450 3500 50  0001 C CNN
-F 4 "MC01W080511K" H 3450 3500 50  0001 C CNN "P/N"
 	1    3450 3500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3300 3500 3200 3500
+	3300 3500 3100 3500
 Wire Wire Line
 	1900 3100 1900 2850
 Wire Wire Line
@@ -197,26 +225,25 @@ Connection ~ 1900 3100
 Wire Wire Line
 	3650 3500 3600 3500
 Wire Wire Line
-	3650 2550 3650 3300
+	3650 2550 3650 3500
 Wire Wire Line
 	3650 3300 3100 3300
 Wire Wire Line
 	3650 2550 3500 2550
 Connection ~ 3650 3300
 $Comp
-L detector_metais-rescue:R R16
+L R R16
 U 1 1 59E09D2E
 P 4500 3750
 F 0 "R16" V 4580 3750 50  0000 C CNN
 F 1 "330" V 4500 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4430 3750 50  0001 C CNN
+F 2 "" V 4430 3750 50  0001 C CNN
 F 3 "" H 4500 3750 50  0001 C CNN
-F 4 "MC01W08051330R" H 4500 3750 50  0001 C CNN "P/N"
 	1    4500 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L detector_metais-rescue:R R18
+L R R18
 U 1 1 59E09E93
 P 4200 4100
 F 0 "R18" V 4280 4100 50  0000 C CNN
@@ -235,11 +262,11 @@ Wire Wire Line
 Wire Wire Line
 	4500 3900 4500 4100
 Wire Wire Line
-	4350 4100 4500 4100
+	4350 4100 4700 4100
 Text HLabel 5000 3400 2    60   Input ~ 0
 12V
 Wire Wire Line
-	4500 3400 4750 3400
+	4500 3400 5000 3400
 Wire Wire Line
 	4500 3400 4500 3600
 Connection ~ 4500 4100
@@ -251,7 +278,7 @@ Wire Wire Line
 	4750 3650 4750 3400
 Connection ~ 4750 3400
 $Comp
-L detector_metais-rescue:C C14
+L C C14
 U 1 1 59E0A3D4
 P 5550 3150
 F 0 "C14" H 5575 3250 50  0000 L CNN
@@ -262,7 +289,7 @@ F 3 "" H 5550 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 4300 5000 4500
+	5000 4300 5000 4800
 Wire Wire Line
 	5000 4500 5550 4500
 Wire Wire Line
@@ -274,14 +301,13 @@ Wire Wire Line
 Wire Wire Line
 	5550 2800 5450 2800
 $Comp
-L detector_metais-rescue:R R21
+L R R21
 U 1 1 59E0B0B3
 P 5300 4800
 F 0 "R21" V 5380 4800 50  0000 C CNN
 F 1 "100" V 5300 4800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5230 4800 50  0001 C CNN
+F 2 "" V 5230 4800 50  0001 C CNN
 F 3 "" H 5300 4800 50  0001 C CNN
-F 4 "MC01W08051100R" H 5300 4800 50  0001 C CNN "P/N"
 	1    5300 4800
 	0    1    1    0   
 $EndComp
@@ -289,7 +315,7 @@ Wire Wire Line
 	5000 4800 5150 4800
 Connection ~ 5000 4500
 $Comp
-L detector_metais-rescue:R R24
+L R R24
 U 1 1 59E0B249
 P 5650 5050
 F 0 "R24" V 5730 5050 50  0000 C CNN
@@ -300,14 +326,14 @@ F 3 "" H 5650 5050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5450 4800 5650 4800
+	5450 4800 5950 4800
 Wire Wire Line
 	5650 4800 5650 4900
 $Comp
-L power:GND #PWR011
+L GND #PWR11
 U 1 1 59E0B3A3
 P 5650 5300
-F 0 "#PWR011" H 5650 5050 50  0001 C CNN
+F 0 "#PWR11" H 5650 5050 50  0001 C CNN
 F 1 "GND" H 5650 5150 50  0000 C CNN
 F 2 "" H 5650 5300 50  0001 C CNN
 F 3 "" H 5650 5300 50  0001 C CNN
@@ -318,10 +344,10 @@ Wire Wire Line
 	5650 5300 5650 5200
 Connection ~ 5650 4800
 $Comp
-L power:GND #PWR012
+L GND #PWR12
 U 1 1 59E0B670
 P 6250 5300
-F 0 "#PWR012" H 6250 5050 50  0001 C CNN
+F 0 "#PWR12" H 6250 5050 50  0001 C CNN
 F 1 "GND" H 6250 5150 50  0000 C CNN
 F 2 "" H 6250 5300 50  0001 C CNN
 F 3 "" H 6250 5300 50  0001 C CNN
@@ -329,39 +355,38 @@ F 3 "" H 6250 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 5000 6250 5150
+	6250 5000 6250 5300
 $Comp
-L detector_metais-rescue:R R19
+L R R19
 U 1 1 59E0BA13
 P 6250 4200
 F 0 "R19" V 6330 4200 50  0000 C CNN
 F 1 "180" V 6250 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6180 4200 50  0001 C CNN
+F 2 "" V 6180 4200 50  0001 C CNN
 F 3 "" H 6250 4200 50  0001 C CNN
-F 4 "MC01W08051180R" H 6250 4200 50  0001 C CNN "P/N"
 	1    6250 4200
 	1    0    0    -1  
 $EndComp
 Text HLabel 7000 3500 2    60   Input ~ 0
 12V
 Wire Wire Line
-	6250 3600 6250 3900
+	6250 3600 6250 4050
 Wire Wire Line
 	6250 3900 5950 3900
 Wire Wire Line
 	5950 3900 5950 4050
 Wire Wire Line
-	6250 3600 6600 3600
+	6250 3600 7600 3600
 Connection ~ 6250 3900
 Wire Wire Line
-	6250 4350 6250 4450
+	6250 4350 6250 4600
 Wire Wire Line
 	5950 4350 5950 4450
 Wire Wire Line
-	5950 4450 6250 4450
+	5950 4450 6700 4450
 Connection ~ 6250 4450
 $Comp
-L detector_metais-rescue:R R20
+L R R20
 U 1 1 59E0BD26
 P 6850 4450
 F 0 "R20" V 6930 4450 50  0000 C CNN
@@ -372,7 +397,7 @@ F 3 "" H 6850 4450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L detector_metais-rescue:C C18
+L C C18
 U 1 1 59E0BEAB
 P 6600 4000
 F 0 "C18" H 6625 4100 50  0000 L CNN
@@ -398,21 +423,20 @@ Connection ~ 7000 3600
 Wire Wire Line
 	7050 4050 7050 4450
 Wire Wire Line
-	7000 4450 7050 4450
+	7000 4450 7150 4450
 $Comp
-L detector_metais-rescue:R R17
+L R R17
 U 1 1 59E0C855
 P 7600 3900
 F 0 "R17" V 7680 3900 50  0000 C CNN
 F 1 "1k" V 7600 3900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7530 3900 50  0001 C CNN
+F 2 "" V 7530 3900 50  0001 C CNN
 F 3 "" H 7600 3900 50  0001 C CNN
-F 4 "MC01W080511K" H 7600 3900 50  0001 C CNN "P/N"
 	1    7600 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L detector_metais-rescue:CP C20
+L CP C20
 U 1 1 59E0CA2F
 P 7300 4450
 F 0 "C20" V 7450 4450 50  0000 L CNN
@@ -427,20 +451,19 @@ Wire Wire Line
 	7600 3600 7600 3750
 Connection ~ 7050 3600
 Wire Wire Line
-	7450 4450 7650 4450
+	7450 4450 7900 4450
 Wire Wire Line
 	7600 4050 7600 4250
 Wire Wire Line
 	7600 4250 7900 4250
 $Comp
-L detector_metais-rescue:R R22
+L R R22
 U 1 1 59E0D39B
 P 8300 4950
 F 0 "R22" V 8380 4950 50  0000 C CNN
 F 1 "820k" V 8300 4950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8230 4950 50  0001 C CNN
+F 2 "" V 8230 4950 50  0001 C CNN
 F 3 "" H 8300 4950 50  0001 C CNN
-F 4 "MC01W08051820K" H 8300 4950 50  0001 C CNN "P/N"
 	1    8300 4950
 	0    1    1    0   
 $EndComp
@@ -457,7 +480,7 @@ Wire Notes Line
 Wire Notes Line
 	3050 4600 1400 4600
 $Comp
-L detector_metais-rescue:TL071 U7
+L TL071 U7
 U 1 1 59E10155
 P 8200 4350
 F 0 "U7" H 8200 4600 50  0000 L CNN
@@ -468,7 +491,7 @@ F 3 "" H 8350 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L detector_metais-rescue:C C17
+L C C17
 U 1 1 59E10CF9
 P 8450 3950
 F 0 "C17" H 8475 4050 50  0000 L CNN
@@ -508,7 +531,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 4750 8000 4750
 $Comp
-L detector_metais-rescue:C C19
+L C C19
 U 1 1 59E11451
 P 8900 4350
 F 0 "C19" H 8925 4450 50  0000 L CNN
@@ -525,26 +548,25 @@ Wire Wire Line
 Wire Wire Line
 	8300 4850 9150 4850
 Wire Wire Line
-	9150 4350 9150 4850
+	9150 4350 9150 4950
 Wire Wire Line
 	9150 4350 9050 4350
 Wire Wire Line
-	8450 4950 9150 4950
+	8450 4950 9250 4950
 Connection ~ 9150 4850
 $Comp
-L detector_metais-rescue:R R23
+L R R23
 U 1 1 59E116E6
 P 9400 4950
 F 0 "R23" V 9480 4950 50  0000 C CNN
 F 1 "330" V 9400 4950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9330 4950 50  0001 C CNN
+F 2 "" V 9330 4950 50  0001 C CNN
 F 3 "" H 9400 4950 50  0001 C CNN
-F 4 "MC01W08051330R" H 9400 4950 50  0001 C CNN "P/N"
 	1    9400 4950
 	0    1    1    0   
 $EndComp
 $Comp
-L detector_metais-rescue:C C21
+L C C21
 U 1 1 59E11772
 P 9600 4600
 F 0 "C21" H 9625 4700 50  0000 L CNN
@@ -585,46 +607,4 @@ Wire Notes Line
 	3450 4500 3450 3950
 Wire Notes Line
 	3450 3950 4200 3950
-Wire Wire Line
-	2000 2750 2000 3500
-Wire Wire Line
-	3150 2550 3200 2550
-Wire Wire Line
-	2600 2750 2600 2900
-Wire Wire Line
-	3200 3500 3100 3500
-Wire Wire Line
-	1900 3100 1600 3100
-Wire Wire Line
-	3650 3300 3650 3500
-Wire Wire Line
-	4500 4100 4700 4100
-Wire Wire Line
-	4750 3400 5000 3400
-Wire Wire Line
-	5000 4500 5000 4800
-Wire Wire Line
-	5650 4800 5950 4800
-Wire Wire Line
-	6250 3900 6250 4050
-Wire Wire Line
-	6250 4450 6250 4600
-Wire Wire Line
-	6250 4450 6700 4450
-Wire Wire Line
-	6600 3600 7000 3600
-Wire Wire Line
-	6250 5150 6250 5300
-Wire Wire Line
-	7000 3600 7050 3600
-Wire Wire Line
-	7050 4450 7150 4450
-Wire Wire Line
-	7050 3600 7600 3600
-Wire Wire Line
-	7650 4450 7900 4450
-Wire Wire Line
-	9150 4850 9150 4950
-Wire Wire Line
-	9150 4950 9250 4950
 $EndSCHEMATC

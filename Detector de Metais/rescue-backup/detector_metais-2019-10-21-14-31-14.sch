@@ -1,6 +1,35 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
 LIBS:detector_metais-cache
-EELAYER 30 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -46,19 +75,19 @@ $EndSheet
 Wire Wire Line
 	3550 2300 3400 2300
 Wire Wire Line
-	3400 1100 3400 2300
+	3400 1100 3400 5850
 Wire Wire Line
 	3400 1100 3550 1100
 Wire Wire Line
 	3550 1200 3300 1200
 Wire Wire Line
-	3300 1200 3300 2400
+	3300 1200 3300 4750
 Wire Wire Line
 	3300 2400 3550 2400
 Wire Wire Line
 	3550 1300 3200 1300
 Wire Wire Line
-	3200 1300 3200 2500
+	3200 1300 3200 4850
 Wire Wire Line
 	3200 2500 3550 2500
 Wire Wire Line
@@ -116,12 +145,4 @@ Wire Wire Line
 	4900 5850 4900 2400
 Wire Wire Line
 	4900 2400 4650 2400
-Wire Wire Line
-	3400 2300 3400 4650
-Wire Wire Line
-	3300 2400 3300 4750
-Wire Wire Line
-	3200 2500 3200 4850
-Wire Wire Line
-	3400 4650 3400 5850
 $EndSCHEMATC

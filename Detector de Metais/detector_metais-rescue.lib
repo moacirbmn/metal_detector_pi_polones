@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# detector_metais-rescue_4011
+# 4011
 #
-DEF detector_metais-rescue_4011 U 0 30 Y Y 4 F N
+DEF 4011 U 0 30 Y Y 4 F N
 F0 "U" 0 50 50 H V C CNN
-F1 "detector_metais-rescue_4011" 0 -50 50 H V C CNN
+F1 "4011" 0 -50 50 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -45,11 +45,11 @@ X ~ 13 -600 -100 370 R 50 50 4 2 I I
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_7805
+# 7805
 #
-DEF detector_metais-rescue_7805 U 0 30 N Y 1 F N
+DEF 7805 U 0 30 N Y 1 F N
 F0 "U" 150 -196 50 H V C CNN
-F1 "detector_metais-rescue_7805" 0 200 50 H V C CNN
+F1 "7805" 0 200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -60,11 +60,11 @@ X VO VO 400 50 200 L 40 40 1 1 w
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_7905
+# 7905
 #
-DEF detector_metais-rescue_7905 U 0 30 N Y 1 F N
+DEF 7905 U 0 30 N Y 1 F N
 F0 "U" 150 -195 50 H V C CNN
-F1 "detector_metais-rescue_7905" 0 200 50 H V C CNN
+F1 "7905" 0 200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -75,11 +75,11 @@ X VO VO 400 50 200 L 40 40 1 1 w
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_BARREL_JACK
+# BARREL_JACK
 #
-DEF detector_metais-rescue_BARREL_JACK J 0 40 Y Y 1 F N
+DEF BARREL_JACK J 0 40 Y Y 1 F N
 F0 "J" 0 195 50 H V C CNN
-F1 "detector_metais-rescue_BARREL_JACK" 0 -155 50 H V C CNN
+F1 "BARREL_JACK" 0 -155 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -96,11 +96,11 @@ X ~ 3 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_BC807-40
+# BC807-40
 #
-DEF detector_metais-rescue_BC807-40 Q 0 0 Y Y 1 F N
+DEF BC807-40 Q 0 0 Y Y 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "detector_metais-rescue_BC807-40" 200 0 50 H V L CNN
+F1 "BC807-40" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -119,11 +119,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_BD140
+# BD140
 #
-DEF detector_metais-rescue_BD140 Q 0 0 Y Y 1 F N
+DEF BD140 Q 0 0 Y Y 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "detector_metais-rescue_BD140" 200 0 50 H V L CNN
+F1 "BD140" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_THT:TO-126_Vertical" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -142,11 +142,11 @@ X B 3 -200 0 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_BD911
+# BD911
 #
-DEF detector_metais-rescue_BD911 Q 0 0 Y Y 1 F N
+DEF BD911 Q 0 0 Y Y 1 F N
 F0 "Q" 250 75 50 H V L CNN
-F1 "detector_metais-rescue_BD911" 250 0 50 H V L CNN
+F1 "BD911" 250 0 50 H V L CNN
 F2 "TO_SOT_Packages_THT:TO-220_Vertical" 250 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -172,11 +172,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_BF245A
+# BF245A
 #
-DEF detector_metais-rescue_BF245A Q 0 0 Y Y 1 F N
+DEF BF245A Q 0 0 Y Y 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "detector_metais-rescue_BF245A" 200 0 50 H V L CNN
+F1 "BF245A" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" 200 -75 50 H I L CIN
 F3 "" 0 -50 50 H I L CNN
 $FPLIST
@@ -194,11 +194,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_C
+# C
 #
-DEF detector_metais-rescue_C C 0 10 N Y 1 F N
+DEF C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "detector_metais-rescue_C" 25 -100 50 H V L CNN
+F1 "C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -212,11 +212,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_CP
+# CP
 #
-DEF detector_metais-rescue_CP C 0 10 N Y 1 F N
+DEF CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "detector_metais-rescue_CP" 25 -100 50 H V L CNN
+F1 "CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -235,11 +235,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_D
+# D
 #
-DEF detector_metais-rescue_D D 0 40 N N 1 F N
+DEF D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "detector_metais-rescue_D" 0 -100 50 H V C CNN
+F1 "D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -258,11 +258,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_D_Zener
+# D_Zener
 #
-DEF detector_metais-rescue_D_Zener D 0 40 N N 1 F N
+DEF D_Zener D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "detector_metais-rescue_D_Zener" 0 -100 50 H V C CNN
+F1 "D_Zener" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -281,11 +281,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_L
+# L
 #
-DEF detector_metais-rescue_L L 0 40 N N 1 F N
+DEF L L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "detector_metais-rescue_L" 75 0 50 V V C CNN
+F1 "L" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -304,11 +304,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_LM741
+# LM741
 #
-DEF detector_metais-rescue_LM741 U 0 20 Y Y 1 F N
+DEF LM741 U 0 20 Y Y 1 F N
 F0 "U" 0 250 50 H V L CNN
-F1 "detector_metais-rescue_LM741" 0 150 50 H V L CNN
+F1 "LM741" 0 150 50 H V L CNN
 F2 "" 50 50 50 H I C CNN
 F3 "" 150 150 50 H I C CNN
 $FPLIST
@@ -329,11 +329,11 @@ X NC 8 0 300 200 D 50 50 1 1 N N
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_NE555
+# NE555
 #
-DEF detector_metais-rescue_NE555 U 0 40 Y Y 1 F N
+DEF NE555 U 0 40 Y Y 1 F N
 F0 "U" -400 350 50 H V L CNN
-F1 "detector_metais-rescue_NE555" -400 -350 50 H V L CNN
+F1 "NE555" -400 -350 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -355,11 +355,11 @@ X DIS 7 500 0 150 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_POT
+# POT
 #
-DEF detector_metais-rescue_POT RV 0 40 N N 1 F N
+DEF POT RV 0 40 N N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "detector_metais-rescue_POT" -100 0 50 V V C CNN
+F1 "POT" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -372,11 +372,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_POT_TRIM
+# POT_TRIM
 #
-DEF detector_metais-rescue_POT_TRIM RV 0 40 N N 1 F N
+DEF POT_TRIM RV 0 40 N N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "detector_metais-rescue_POT_TRIM" -100 0 50 V V C CNN
+F1 "POT_TRIM" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -389,11 +389,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_R
+# R
 #
-DEF detector_metais-rescue_R R 0 0 N Y 1 F N
+DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "detector_metais-rescue_R" 0 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -407,11 +407,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_Speaker
+# Speaker
 #
-DEF detector_metais-rescue_Speaker LS 0 0 Y N 1 F N
+DEF Speaker LS 0 0 Y N 1 F N
 F0 "LS" 50 225 50 H V R CNN
-F1 "detector_metais-rescue_Speaker" 50 150 50 H V R CNN
+F1 "Speaker" 50 150 50 H V R CNN
 F2 "" 0 -200 50 H I C CNN
 F3 "" -10 -50 50 H I C CNN
 DRAW
@@ -422,11 +422,11 @@ X 2 2 -200 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# detector_metais-rescue_TL071
+# TL071
 #
-DEF detector_metais-rescue_TL071 U 0 20 Y Y 1 F N
+DEF TL071 U 0 20 Y Y 1 F N
 F0 "U" 0 250 50 H V L CNN
-F1 "detector_metais-rescue_TL071" 0 150 50 H V L CNN
+F1 "TL071" 0 150 50 H V L CNN
 F2 "" 50 50 50 H I C CNN
 F3 "" 150 150 50 H I C CNN
 $FPLIST
@@ -444,19 +444,6 @@ X ~ 5 100 -300 250 U 50 50 1 1 I
 X ~ 6 300 0 100 L 50 50 1 1 O
 X V+ 7 -100 300 150 D 50 50 1 1 W
 X NC 8 0 300 200 D 50 50 1 1 N N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
