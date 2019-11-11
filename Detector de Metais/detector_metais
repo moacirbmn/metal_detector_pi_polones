@@ -1,71 +1,85 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>KiCad BOM Example 5</title>
-    </head>
-    <body>
-    <h1>/home/moacirbmn/Documentos/metal_detector_pi_polones/Detector de Metais/detector_metais.sch</h1>
-    <p>seg 21 out 2019 14:37:47 -03</p>
-    <p>Eeschema 5.1.4-e60b266~84~ubuntu18.04.1</p>
-    <p><b>Component Count:</b>80</p>
-    <table>
-    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
-    <tr><td>C1, C7, C8</td><td>3</td><td>22uF/16V</td><td>detector_metais-rescue:CP</td><td></td><td></td><td></td></tr>
-    <tr><td>C2, C4, C16, C21, C24, C26</td><td>6</td><td>100nF</td><td>detector_metais-rescue:C</td><td></td><td></td><td></td></tr>
-    <tr><td>C3</td><td>1</td><td>10nF</td><td>detector_metais-rescue:C</td><td></td><td></td><td></td></tr>
-    <tr><td>C5, C6, C27</td><td>3</td><td>100uF/25V</td><td>detector_metais-rescue:CP</td><td></td><td></td><td></td></tr>
-    <tr><td>C9</td><td>1</td><td>22uF</td><td>detector_metais-rescue:CP</td><td></td><td></td><td></td></tr>
-    <tr><td>C10, C25</td><td>2</td><td>220nF</td><td>detector_metais-rescue:C</td><td></td><td></td><td></td></tr>
-    <tr><td>C11, C12, C13, C14</td><td>4</td><td>1nF</td><td>detector_metais-rescue:C</td><td></td><td></td><td></td></tr>
-    <tr><td>C15</td><td>1</td><td>200nF</td><td>detector_metais-rescue:C</td><td></td><td></td><td></td></tr>
-    <tr><td>C17</td><td>1</td><td>10pF</td><td>detector_metais-rescue:C</td><td></td><td></td><td></td></tr>
-    <tr><td>C18</td><td>1</td><td>47nF</td><td>detector_metais-rescue:C</td><td></td><td></td><td></td></tr>
-    <tr><td>C19</td><td>1</td><td>3,3pF</td><td>detector_metais-rescue:C</td><td></td><td></td><td></td></tr>
-    <tr><td>C20</td><td>1</td><td>10uF/16V</td><td>detector_metais-rescue:CP</td><td></td><td></td><td></td></tr>
-    <tr><td>C22, C23</td><td>2</td><td>1000uF/16V</td><td>detector_metais-rescue:CP</td><td></td><td></td><td></td></tr>
-    <tr><td>D1, D2, D3, D4</td><td>4</td><td>1N4004</td><td>detector_metais-rescue:D</td><td></td><td></td><td></td></tr>
-    <tr><td>DZ1</td><td>1</td><td>3,3v</td><td>detector_metais-rescue:D_Zener</td><td></td><td></td><td></td></tr>
-    <tr><td>J1</td><td>1</td><td>BARREL_JACK</td><td>detector_metais-rescue:BARREL_JACK</td><td></td><td></td><td></td></tr>
-    <tr><td>L1</td><td>1</td><td>Bobina</td><td>detector_metais-rescue:L</td><td></td><td></td><td></td></tr>
-    <tr><td>POT1, POT3</td><td>2</td><td>10k</td><td>detector_metais-rescue:POT</td><td></td><td></td><td></td></tr>
-    <tr><td>POT2</td><td>1</td><td>2,2k</td><td>detector_metais-rescue:POT</td><td></td><td></td><td></td></tr>
-    <tr><td>PTR1</td><td>1</td><td>220k</td><td>detector_metais-rescue:POT_TRIM</td><td></td><td></td><td></td></tr>
-    <tr><td>PTR2</td><td>1</td><td>100k</td><td>detector_metais-rescue:POT_TRIM</td><td></td><td></td><td></td></tr>
-    <tr><td>Q1</td><td>1</td><td>BC807-40</td><td>detector_metais-rescue:BC807-40</td><td>TO_SOT_Packages_SMD:SOT-23</td><td></td><td></td></tr>
-    <tr><td>Q2</td><td>1</td><td>BF245A</td><td>detector_metais-rescue:BF245A</td><td>TO_SOT_Packages_THT:TO-92_Molded_Narrow</td><td></td><td></td></tr>
-    <tr><td>Q3</td><td>1</td><td>BC807-40 ou BC327</td><td>detector_metais-rescue:BC807-40</td><td>TO_SOT_Packages_SMD:SOT-23</td><td></td><td></td></tr>
-    <tr><td>Q4</td><td>1</td><td>BD911</td><td>detector_metais-rescue:BD911</td><td>TO_SOT_Packages_THT:TO-220_Vertical</td><td></td><td></td></tr>
-    <tr><td>Q5</td><td>1</td><td>BD140</td><td>detector_metais-rescue:BD140</td><td>TO_SOT_Packages_THT:TO-126_Vertical</td><td></td><td></td></tr>
-    <tr><td>R1</td><td>1</td><td>3,3k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>R2</td><td>1</td><td>18k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>R3</td><td>1</td><td>36k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>R4, R5</td><td>2</td><td>5,6k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>R6</td><td>1</td><td>1M</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>R7, R15, R17, R25</td><td>4</td><td>1k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>R8</td><td>1</td><td>220</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>R9</td><td>1</td><td>100k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>R10</td><td>1</td><td>10k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>R11, R13</td><td>2</td><td>33k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>R12, R14</td><td>2</td><td>47k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>R16, R23</td><td>2</td><td>330</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>R18</td><td>1</td><td>1,2k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>R19, R27</td><td>2</td><td>180</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>R20</td><td>1</td><td>200/0,5W</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>R21</td><td>1</td><td>100</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>R22</td><td>1</td><td>820k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>R24</td><td>1</td><td>150</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>R26</td><td>1</td><td>2,4k</td><td>detector_metais-rescue:R</td><td></td><td></td><td></td></tr>
-    <tr><td>SP1</td><td>1</td><td>Speaker 8ohm 0,5W</td><td>detector_metais-rescue:Speaker</td><td></td><td></td><td></td></tr>
-    <tr><td>U1</td><td>1</td><td>7805</td><td>detector_metais-rescue:7805</td><td></td><td></td><td></td></tr>
-    <tr><td>U2, U6, U8</td><td>3</td><td>NE555</td><td>detector_metais-rescue:NE555</td><td></td><td></td><td></td></tr>
-    <tr><td>U3</td><td>1</td><td>7905</td><td>detector_metais-rescue:7905</td><td></td><td></td><td></td></tr>
-    <tr><td>U4</td><td>1</td><td>LM741</td><td>detector_metais-rescue:LM741</td><td></td><td></td><td></td></tr>
-    <tr><td>U5</td><td>1</td><td>4011</td><td>detector_metais-rescue:4011</td><td></td><td></td><td></td></tr>
-    <tr><td>U7</td><td>1</td><td>TL071</td><td>detector_metais-rescue:TL071</td><td></td><td></td><td></td></tr><!--TABLEROW-->
-    </table>
-    </body>
-</html>
-    
+"Source:"	"/home/moacirbmn/Documentos/metal_detector_pi_polones/Detector de Metais/detector_metais.sch"
+"Date:"	"dom 10 nov 2019 09:49:41 -03"
+"Tool:"	"Eeschema 5.1.4-e60b266~84~ubuntu18.04.1"
+"Component Count:"	"80"
+"Ref"	"Value"	"Part"	"Footprint"	"Description"	"Vendor"
+"C1"	"22uF/16V"	"detector_metais-rescue:CP"	"Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"	""	""
+"C2"	"100nF"	"detector_metais-rescue:C"	"Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"	""	""
+"C3"	"10nF"	"detector_metais-rescue:C"	""	""	""
+"C4"	"100nF"	"detector_metais-rescue:C"	"Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"	""	""
+"C5"	"100uF/25V"	"detector_metais-rescue:CP"	"Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"	""	""
+"C6"	"100uF/25V"	"detector_metais-rescue:CP"	"Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"	""	""
+"C7"	"22uF/16V"	"detector_metais-rescue:CP"	"Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"	""	""
+"C8"	"22uF/16V"	"detector_metais-rescue:CP"	"Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"	""	""
+"C9"	"22uF"	"detector_metais-rescue:CP"	"Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"	""	""
+"C10"	"220nF"	"detector_metais-rescue:C"	"Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm"	""	""
+"C11"	"1nF"	"detector_metais-rescue:C"	"Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P5.00mm"	""	""
+"C12"	"1nF"	"detector_metais-rescue:C"	"Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P5.00mm"	""	""
+"C13"	"1nF"	"detector_metais-rescue:C"	"Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P5.00mm"	""	""
+"C14"	"1nF"	"detector_metais-rescue:C"	"Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P5.00mm"	""	""
+"C15"	"200nF"	"detector_metais-rescue:C"	"Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"	""	""
+"C16"	"100nF"	"detector_metais-rescue:C"	"Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"	""	""
+"C17"	"10pF"	"detector_metais-rescue:C"	"Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"	""	""
+"C18"	"47nF"	"detector_metais-rescue:C"	"Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"	""	""
+"C19"	"3,3pF"	"detector_metais-rescue:C"	"Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"	""	""
+"C20"	"10uF/16V"	"detector_metais-rescue:CP"	"Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"	""	""
+"C21"	"100nF"	"detector_metais-rescue:C"	"Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"	""	""
+"C22"	"1000uF/16V"	"detector_metais-rescue:CP"	"Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"	""	""
+"C23"	"1000uF/16V"	"detector_metais-rescue:CP"	"Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"	""	""
+"C24"	"100nF"	"detector_metais-rescue:C"	"Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"	""	""
+"C25"	"220nF"	"detector_metais-rescue:C"	"Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm"	""	""
+"C26"	"100nF"	"detector_metais-rescue:C"	"Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"	""	""
+"C27"	"100uF/25V"	"detector_metais-rescue:CP"	"Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"	""	""
+"D1"	"1N4004"	"detector_metais-rescue:D"	"Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"	""	""
+"D2"	"1N4004"	"detector_metais-rescue:D"	"Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"	""	""
+"D3"	"1N4004"	"detector_metais-rescue:D"	"Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"	""	""
+"D4"	"1N4004"	"detector_metais-rescue:D"	"Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"	""	""
+"DZ1"	"3,3v"	"detector_metais-rescue:D_Zener"	"Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp"	""	""
+"J1"	"BARREL_JACK"	"detector_metais-rescue:BARREL_JACK"	"Connector_BarrelJack:BarrelJack_Horizontal"	""	""
+"L1"	"Bobina"	"detector_metais-rescue:L"	"Connector_BarrelJack:BarrelJack_Horizontal"	""	""
+"POT1"	"10k"	"detector_metais-rescue:POT"	"Potentiometer_THT:Potentiometer_Vishay_148-149_Single_Horizontal"	""	""
+"POT2"	"2,2k"	"detector_metais-rescue:POT"	"Potentiometer_THT:Potentiometer_Vishay_148-149_Single_Horizontal"	""	""
+"POT3"	"10k"	"detector_metais-rescue:POT"	"Potentiometer_THT:Potentiometer_Vishay_148-149_Single_Horizontal"	""	""
+"PTR1"	"220k"	"detector_metais-rescue:POT_TRIM"	"Potentiometer_THT:Potentiometer_ACP_CA9-H3,8_Horizontal"	""	""
+"PTR2"	"100k"	"detector_metais-rescue:POT_TRIM"	"Potentiometer_THT:Potentiometer_ACP_CA9-H3,8_Horizontal"	""	""
+"Q1"	"BC807-40 ou BC327"	"detector_metais-rescue:BC807-40"	"TO_SOT_Packages_SMD:SOT-23"	""	""
+"Q2"	"BF245A"	"detector_metais-rescue:BF245A"	"TO_SOT_Packages_THT:TO-92_Molded_Narrow"	""	""
+"Q3"	"BC807-40 ou BC327"	"detector_metais-rescue:BC807-40"	"TO_SOT_Packages_SMD:SOT-23"	""	""
+"Q4"	"BD911"	"detector_metais-rescue:BD911"	"TO_SOT_Packages_THT:TO-220_Vertical"	""	""
+"Q5"	"BD140"	"detector_metais-rescue:BD140"	"TO_SOT_Packages_THT:TO-126_Vertical"	""	""
+"R1"	"3,3k"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R2"	"18k"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R3"	"36k"	"detector_metais-rescue:R"	"Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"	""	""
+"R4"	"5,6k"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R5"	"5,6k"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R6"	"1M"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R7"	"1k"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R8"	"220"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R9"	"100k"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R10"	"10k"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R11"	"33k"	"detector_metais-rescue:R"	"Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"	""	""
+"R12"	"47k"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R13"	"33k"	"detector_metais-rescue:R"	"Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"	""	""
+"R14"	"47k"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R15"	"1k"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R16"	"330"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R17"	"1k"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R18"	"1,2k"	"detector_metais-rescue:R"	"Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"	""	""
+"R19"	"180"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R20"	"200/0,5W"	"detector_metais-rescue:R"	"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"	""	""
+"R21"	"100"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R22"	"820k"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R23"	"330"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R24"	"150"	"detector_metais-rescue:R"	"Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"	""	""
+"R25"	"1k"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"R26"	"2,4k"	"detector_metais-rescue:R"	"Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"	""	""
+"R27"	"180"	"detector_metais-rescue:R"	"Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"	""	""
+"SP1"	"Speaker 8ohm 0,5W"	"detector_metais-rescue:Speaker"	"Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Horizontal"	""	""
+"U1"	"7805"	"detector_metais-rescue:7805"	"Package_TO_SOT_THT:TO-220-3_Vertical"	""	""
+"U2"	"NE555"	"detector_metais-rescue:NE555"	"Package_SO:HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.4x3.2mm"	""	""
+"U3"	"7905"	"detector_metais-rescue:7905"	"Package_TO_SOT_THT:TO-220-3_Vertical"	""	""
+"U4"	"LM741"	"detector_metais-rescue:LM741"	"Package_DIP:DIP-8_W7.62mm_LongPads"	""	""
+"U5"	"4011"	"detector_metais-rescue:4011"	"Package_DIP:DIP-14_W7.62mm_Socket_LongPads"	""	""
+"U6"	"NE555"	"detector_metais-rescue:NE555"	"Package_SO:HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.4x3.2mm"	""	""
+"U7"	"TL071"	"detector_metais-rescue:TL071"	"Package_DIP:DIP-8_W7.62mm_LongPads"	""	""
+"U8"	"NE555"	"detector_metais-rescue:NE555"	"Package_SO:HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.4x3.2mm"	""	""

@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/moacirbmn/Documentos/metal_detector_pi_polones/Detector de Metais/detector_metais.sch</source>
-    <date>seg 21 out 2019 14:37:47 -03</date>
+    <date>dom 10 nov 2019 09:49:41 -03</date>
     <tool>Eeschema 5.1.4-e60b266~84~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -86,138 +86,182 @@
   <components>
     <comp ref="J1">
       <value>BARREL_JACK</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Horizontal</footprint>
       <libsource lib="detector_metais-rescue" part="BARREL_JACK" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFA391</tstamp>
     </comp>
     <comp ref="U2">
       <value>NE555</value>
+      <footprint>Package_SO:HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.4x3.2mm</footprint>
       <libsource lib="detector_metais-rescue" part="NE555" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFCA5D</tstamp>
     </comp>
     <comp ref="C9">
       <value>22uF</value>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>Falta</datasheet>
       <libsource lib="detector_metais-rescue" part="CP" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFCAA0</tstamp>
     </comp>
     <comp ref="D1">
       <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp</footprint>
+      <fields>
+        <field name="P/N">MC01W08051180R</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="D" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFCB09</tstamp>
     </comp>
     <comp ref="U3">
       <value>7905</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
       <libsource lib="detector_metais-rescue" part="7905" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFCB50</tstamp>
     </comp>
     <comp ref="U1">
       <value>7805</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
       <libsource lib="detector_metais-rescue" part="7805" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFCC0D</tstamp>
     </comp>
     <comp ref="C4">
       <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
       <libsource lib="detector_metais-rescue" part="C" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFD52E</tstamp>
     </comp>
     <comp ref="C3">
       <value>10nF</value>
+      <datasheet>Falta</datasheet>
       <libsource lib="detector_metais-rescue" part="C" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFD6CF</tstamp>
     </comp>
     <comp ref="R1">
       <value>3,3k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="P/N">RC0805FR-073K3L</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFD92C</tstamp>
     </comp>
     <comp ref="R2">
       <value>18k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="P/N">RR1220P-183-B-T5</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFD9B0</tstamp>
     </comp>
     <comp ref="C7">
       <value>22uF/16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
       <libsource lib="detector_metais-rescue" part="CP" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFE649</tstamp>
     </comp>
     <comp ref="C8">
       <value>22uF/16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
       <libsource lib="detector_metais-rescue" part="CP" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFE7E1</tstamp>
     </comp>
     <comp ref="D3">
       <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp</footprint>
+      <fields>
+        <field name="P/N">MC01W08051180R</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="D" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFEA3E</tstamp>
     </comp>
     <comp ref="D2">
       <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp</footprint>
+      <fields>
+        <field name="P/N">MC01W08051180R</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="D" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFEA8E</tstamp>
     </comp>
     <comp ref="D4">
       <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp</footprint>
+      <fields>
+        <field name="P/N">MC01W08051180R</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="D" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFEAE5</tstamp>
     </comp>
     <comp ref="C5">
       <value>100uF/25V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
       <libsource lib="detector_metais-rescue" part="CP" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFF146</tstamp>
     </comp>
     <comp ref="C6">
       <value>100uF/25V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
       <libsource lib="detector_metais-rescue" part="CP" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFF5FC</tstamp>
     </comp>
     <comp ref="C1">
       <value>22uF/16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
       <libsource lib="detector_metais-rescue" part="CP" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFFAE4</tstamp>
     </comp>
     <comp ref="C2">
       <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
       <libsource lib="detector_metais-rescue" part="C" description=""/>
       <sheetpath names="/Fonte/" tstamps="/59DF3F23/"/>
       <tstamp>59DFFBD0</tstamp>
     </comp>
     <comp ref="U4">
       <value>LM741</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_LongPads</footprint>
       <libsource lib="detector_metais-rescue" part="LM741" description=""/>
       <sheetpath names="/Amp_741/" tstamps="/59E029C8/"/>
       <tstamp>59E02A01</tstamp>
     </comp>
     <comp ref="R6">
       <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="P/N">MC01W080511M</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/Amp_741/" tstamps="/59E029C8/"/>
       <tstamp>59E02A74</tstamp>
     </comp>
     <comp ref="C10">
       <value>220nF</value>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm</footprint>
       <libsource lib="detector_metais-rescue" part="C" description=""/>
       <sheetpath names="/Amp_741/" tstamps="/59E029C8/"/>
       <tstamp>59E02ACF</tstamp>
     </comp>
     <comp ref="Q1">
-      <value>BC807-40</value>
+      <value>BC807-40 ou BC327</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
       <libsource lib="detector_metais-rescue" part="BC807-40" description=""/>
       <sheetpath names="/Amp_741/" tstamps="/59E029C8/"/>
@@ -225,30 +269,44 @@
     </comp>
     <comp ref="POT1">
       <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Vishay_148-149_Single_Horizontal</footprint>
       <libsource lib="detector_metais-rescue" part="POT" description=""/>
       <sheetpath names="/Amp_741/" tstamps="/59E029C8/"/>
       <tstamp>59E02C9B</tstamp>
     </comp>
     <comp ref="POT2">
       <value>2,2k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Vishay_148-149_Single_Horizontal</footprint>
       <libsource lib="detector_metais-rescue" part="POT" description=""/>
       <sheetpath names="/Amp_741/" tstamps="/59E029C8/"/>
       <tstamp>59E02CFF</tstamp>
     </comp>
     <comp ref="R7">
       <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="P/N">MC01W080511K</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/Amp_741/" tstamps="/59E029C8/"/>
       <tstamp>59DF92CB</tstamp>
     </comp>
     <comp ref="R5">
       <value>5,6k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="P/N">MC01W080515K6</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/Amp_741/" tstamps="/59E029C8/"/>
       <tstamp>59DF9372</tstamp>
     </comp>
     <comp ref="R8">
       <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="P/N">MC01W08051220R</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/Amp_741/" tstamps="/59E029C8/"/>
       <tstamp>59DF93C6</tstamp>
@@ -256,102 +314,133 @@
     <comp ref="Q2">
       <value>BF245A</value>
       <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <datasheet>Falta</datasheet>
       <libsource lib="detector_metais-rescue" part="BF245A" description=""/>
       <sheetpath names="/Amp_741/" tstamps="/59E029C8/"/>
       <tstamp>59DF9919</tstamp>
     </comp>
     <comp ref="R10">
       <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/Amp_741/" tstamps="/59E029C8/"/>
       <tstamp>59DF99D2</tstamp>
     </comp>
     <comp ref="R9">
       <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="P/N">MC01W08055100K</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/Amp_741/" tstamps="/59E029C8/"/>
       <tstamp>59DF9D2C</tstamp>
     </comp>
     <comp ref="R3">
       <value>36k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>Falta</datasheet>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/Amp_741/" tstamps="/59E029C8/"/>
       <tstamp>59DFAA07</tstamp>
     </comp>
     <comp ref="R4">
       <value>5,6k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="P/N">MC01W080515K6</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/Amp_741/" tstamps="/59E029C8/"/>
       <tstamp>59DFAFF0</tstamp>
     </comp>
     <comp ref="PTR1">
       <value>220k</value>
+      <footprint>Potentiometer_THT:Potentiometer_ACP_CA9-H3,8_Horizontal</footprint>
       <libsource lib="detector_metais-rescue" part="POT_TRIM" description=""/>
       <sheetpath names="/Amp_741/" tstamps="/59E029C8/"/>
       <tstamp>59E1A332</tstamp>
     </comp>
     <comp ref="U5">
       <value>4011</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket_LongPads</footprint>
       <libsource lib="detector_metais-rescue" part="4011" description=""/>
       <sheetpath names="/4011/" tstamps="/59E03872/"/>
       <tstamp>59E0387B</tstamp>
     </comp>
     <comp ref="R11">
       <value>33k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/4011/" tstamps="/59E03872/"/>
       <tstamp>59E03CE8</tstamp>
     </comp>
     <comp ref="C12">
       <value>1nF</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P5.00mm</footprint>
       <libsource lib="detector_metais-rescue" part="C" description=""/>
       <sheetpath names="/4011/" tstamps="/59E03872/"/>
       <tstamp>59E03D65</tstamp>
     </comp>
     <comp ref="C11">
       <value>1nF</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P5.00mm</footprint>
       <libsource lib="detector_metais-rescue" part="C" description=""/>
       <sheetpath names="/4011/" tstamps="/59E03872/"/>
       <tstamp>59E040BE</tstamp>
     </comp>
     <comp ref="R13">
       <value>33k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/4011/" tstamps="/59E03872/"/>
       <tstamp>59E04126</tstamp>
     </comp>
     <comp ref="R12">
       <value>47k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="P/N">MC01W0805147K</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/4011/" tstamps="/59E03872/"/>
       <tstamp>59E045A1</tstamp>
     </comp>
     <comp ref="C13">
       <value>1nF</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P5.00mm</footprint>
       <libsource lib="detector_metais-rescue" part="C" description=""/>
       <sheetpath names="/4011/" tstamps="/59E03872/"/>
       <tstamp>59E0468C</tstamp>
     </comp>
     <comp ref="R14">
       <value>47k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="P/N">MC01W0805147K</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/4011/" tstamps="/59E03872/"/>
       <tstamp>59E047EE</tstamp>
     </comp>
     <comp ref="U6">
       <value>NE555</value>
+      <footprint>Package_SO:HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.4x3.2mm</footprint>
       <libsource lib="detector_metais-rescue" part="NE555" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E08192</tstamp>
     </comp>
     <comp ref="L1">
       <value>Bobina</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Horizontal</footprint>
+      <datasheet>Fazer</datasheet>
       <libsource lib="detector_metais-rescue" part="L" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E08593</tstamp>
     </comp>
     <comp ref="DZ1">
       <value>3,3v</value>
+      <footprint>Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp</footprint>
       <libsource lib="detector_metais-rescue" part="D_Zener" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E08668</tstamp>
@@ -359,6 +448,7 @@
     <comp ref="Q4">
       <value>BD911</value>
       <footprint>TO_SOT_Packages_THT:TO-220_Vertical</footprint>
+      <datasheet>Falta</datasheet>
       <libsource lib="detector_metais-rescue" part="BD911" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E086D3</tstamp>
@@ -372,120 +462,166 @@
     </comp>
     <comp ref="C16">
       <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
       <libsource lib="detector_metais-rescue" part="C" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E08D6F</tstamp>
     </comp>
     <comp ref="C15">
       <value>200nF</value>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>Falta</datasheet>
       <libsource lib="detector_metais-rescue" part="C" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E08E6A</tstamp>
     </comp>
     <comp ref="PTR2">
       <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_ACP_CA9-H3,8_Horizontal</footprint>
       <libsource lib="detector_metais-rescue" part="POT_TRIM" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E096C2</tstamp>
     </comp>
     <comp ref="R15">
       <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="P/N">MC01W080511K</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E097F2</tstamp>
     </comp>
     <comp ref="R16">
       <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="P/N">MC01W08051330R</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E09D2E</tstamp>
     </comp>
     <comp ref="R18">
       <value>1,2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E09E93</tstamp>
     </comp>
     <comp ref="C14">
       <value>1nF</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P5.00mm</footprint>
       <libsource lib="detector_metais-rescue" part="C" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E0A3D4</tstamp>
     </comp>
     <comp ref="R21">
       <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="P/N">MC01W08051100R</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E0B0B3</tstamp>
     </comp>
     <comp ref="R24">
       <value>150</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E0B249</tstamp>
     </comp>
     <comp ref="R19">
       <value>180</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="P/N">MC01W08051180R</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E0BA13</tstamp>
     </comp>
     <comp ref="R20">
       <value>200/0,5W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E0BD26</tstamp>
     </comp>
     <comp ref="C18">
       <value>47nF</value>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>Falta</datasheet>
       <libsource lib="detector_metais-rescue" part="C" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E0BEAB</tstamp>
     </comp>
     <comp ref="R17">
       <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="P/N">MC01W080511K</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E0C855</tstamp>
     </comp>
     <comp ref="C20">
       <value>10uF/16V</value>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>Falta</datasheet>
       <libsource lib="detector_metais-rescue" part="CP" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E0CA2F</tstamp>
     </comp>
     <comp ref="R22">
       <value>820k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="P/N">MC01W0805110K</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E0D39B</tstamp>
     </comp>
     <comp ref="U7">
       <value>TL071</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_LongPads</footprint>
       <libsource lib="detector_metais-rescue" part="TL071" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E10155</tstamp>
     </comp>
     <comp ref="C17">
       <value>10pF</value>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>Falta</datasheet>
       <libsource lib="detector_metais-rescue" part="C" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E10CF9</tstamp>
     </comp>
     <comp ref="C19">
       <value>3,3pF</value>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>Falta</datasheet>
       <libsource lib="detector_metais-rescue" part="C" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E11451</tstamp>
     </comp>
     <comp ref="R23">
       <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="P/N">MC01W08051330R</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E116E6</tstamp>
     </comp>
     <comp ref="C21">
       <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
       <libsource lib="detector_metais-rescue" part="C" description=""/>
       <sheetpath names="/555+357/" tstamps="/59E080C1/"/>
       <tstamp>59E11772</tstamp>
@@ -499,72 +635,88 @@
     </comp>
     <comp ref="R26">
       <value>2,4k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>Falta</datasheet>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/555+Audio/" tstamps="/59E14251/"/>
       <tstamp>59E14A6D</tstamp>
     </comp>
     <comp ref="C25">
       <value>220nF</value>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm</footprint>
       <libsource lib="detector_metais-rescue" part="C" description=""/>
       <sheetpath names="/555+Audio/" tstamps="/59E14251/"/>
       <tstamp>59E14C16</tstamp>
     </comp>
     <comp ref="C26">
       <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
       <libsource lib="detector_metais-rescue" part="C" description=""/>
       <sheetpath names="/555+Audio/" tstamps="/59E14251/"/>
       <tstamp>59E14DB0</tstamp>
     </comp>
     <comp ref="R27">
       <value>180</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/555+Audio/" tstamps="/59E14251/"/>
       <tstamp>59E14FAB</tstamp>
     </comp>
     <comp ref="C27">
       <value>100uF/25V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
       <libsource lib="detector_metais-rescue" part="CP" description=""/>
       <sheetpath names="/555+Audio/" tstamps="/59E14251/"/>
       <tstamp>59E1511E</tstamp>
     </comp>
     <comp ref="POT3">
       <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Vishay_148-149_Single_Horizontal</footprint>
       <libsource lib="detector_metais-rescue" part="POT" description=""/>
       <sheetpath names="/555+Audio/" tstamps="/59E14251/"/>
       <tstamp>59E157CA</tstamp>
     </comp>
     <comp ref="SP1">
       <value>Speaker 8ohm 0,5W</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Horizontal</footprint>
       <libsource lib="detector_metais-rescue" part="Speaker" description=""/>
       <sheetpath names="/555+Audio/" tstamps="/59E14251/"/>
       <tstamp>59E15A70</tstamp>
     </comp>
     <comp ref="R25">
       <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="P/N">MC01W080511K</field>
+      </fields>
       <libsource lib="detector_metais-rescue" part="R" description=""/>
       <sheetpath names="/555+Audio/" tstamps="/59E14251/"/>
       <tstamp>59E15B7E</tstamp>
     </comp>
     <comp ref="C22">
       <value>1000uF/16V</value>
+      <footprint>Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal</footprint>
       <libsource lib="detector_metais-rescue" part="CP" description=""/>
       <sheetpath names="/555+Audio/" tstamps="/59E14251/"/>
       <tstamp>59E15F4F</tstamp>
     </comp>
     <comp ref="C23">
       <value>1000uF/16V</value>
+      <footprint>Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal</footprint>
       <libsource lib="detector_metais-rescue" part="CP" description=""/>
       <sheetpath names="/555+Audio/" tstamps="/59E14251/"/>
       <tstamp>59E16017</tstamp>
     </comp>
     <comp ref="C24">
       <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
       <libsource lib="detector_metais-rescue" part="C" description=""/>
       <sheetpath names="/555+Audio/" tstamps="/59E14251/"/>
       <tstamp>59E16068</tstamp>
     </comp>
     <comp ref="U8">
       <value>NE555</value>
+      <footprint>Package_SO:HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.4x3.2mm</footprint>
       <libsource lib="detector_metais-rescue" part="NE555" description=""/>
       <sheetpath names="/555+Audio/" tstamps="/59E14251/"/>
       <tstamp>59DFEE81</tstamp>
@@ -879,75 +1031,75 @@
   </libraries>
   <nets>
     <net code="1" name="/4011/S_4011-555">
-      <node ref="U5" pin="2"/>
-      <node ref="U5" pin="1"/>
-      <node ref="C14" pin="1"/>
       <node ref="R11" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U5" pin="2"/>
     </net>
     <net code="2" name="/555+357/S_245-L_555">
-      <node ref="Q2" pin="2"/>
-      <node ref="R10" pin="2"/>
       <node ref="C21" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="Q2" pin="2"/>
     </net>
     <net code="3" name="/555+357/+5V">
-      <node ref="U7" pin="7"/>
       <node ref="U1" pin="VO"/>
-      <node ref="C2" pin="1"/>
-      <node ref="C1" pin="1"/>
       <node ref="U4" pin="7"/>
-      <node ref="PTR1" pin="2"/>
       <node ref="PTR1" pin="1"/>
+      <node ref="PTR1" pin="2"/>
+      <node ref="U7" pin="7"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
     </net>
     <net code="4" name="/555+Audio/S_audio">
+      <node ref="Q1" pin="2"/>
       <node ref="R26" pin="1"/>
       <node ref="U8" pin="7"/>
-      <node ref="Q1" pin="2"/>
     </net>
     <net code="5" name="/555+357/12V">
-      <node ref="U2" pin="4"/>
-      <node ref="U8" pin="8"/>
-      <node ref="U2" pin="8"/>
-      <node ref="C9" pin="1"/>
-      <node ref="D1" pin="2"/>
-      <node ref="U3" pin="GND"/>
-      <node ref="U8" pin="4"/>
+      <node ref="C5" pin="2"/>
       <node ref="C6" pin="2"/>
       <node ref="C1" pin="2"/>
       <node ref="C2" pin="2"/>
       <node ref="R16" pin="1"/>
-      <node ref="R10" pin="1"/>
       <node ref="C22" pin="1"/>
       <node ref="C23" pin="1"/>
       <node ref="C24" pin="1"/>
-      <node ref="POT3" pin="1"/>
-      <node ref="C5" pin="2"/>
       <node ref="R17" pin="1"/>
       <node ref="R19" pin="1"/>
-      <node ref="L1" pin="1"/>
-      <node ref="U6" pin="8"/>
-      <node ref="U6" pin="4"/>
       <node ref="R5" pin="2"/>
-      <node ref="DZ1" pin="2"/>
-      <node ref="PTR2" pin="2"/>
-      <node ref="C18" pin="1"/>
-      <node ref="Q3" pin="2"/>
       <node ref="PTR2" pin="1"/>
+      <node ref="PTR2" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U6" pin="8"/>
+      <node ref="DZ1" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="R10" pin="1"/>
       <node ref="J1" pin="1"/>
-      <node ref="SP1" pin="1"/>
-      <node ref="U1" pin="GND"/>
-      <node ref="R1" pin="1"/>
       <node ref="C27" pin="1"/>
+      <node ref="U8" pin="4"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U8" pin="8"/>
+      <node ref="C9" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U3" pin="GND"/>
+      <node ref="POT3" pin="1"/>
+      <node ref="U1" pin="GND"/>
+      <node ref="SP1" pin="1"/>
+      <node ref="R1" pin="1"/>
     </net>
     <net code="6" name="/555+357/-5V">
       <node ref="R3" pin="2"/>
-      <node ref="U7" pin="4"/>
-      <node ref="U4" pin="4"/>
       <node ref="C9" pin="2"/>
       <node ref="U3" pin="VO"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U7" pin="4"/>
     </net>
     <net code="7" name="/4011/S_4011">
-      <node ref="U5" pin="10"/>
       <node ref="C13" pin="2"/>
+      <node ref="U5" pin="10"/>
       <node ref="R9" pin="1"/>
     </net>
     <net code="8" name="Net-(C5-Pad1)">
@@ -956,90 +1108,90 @@
       <node ref="C5" pin="1"/>
     </net>
     <net code="9" name="Net-(C7-Pad2)">
-      <node ref="U2" pin="3"/>
       <node ref="C7" pin="2"/>
+      <node ref="U2" pin="3"/>
       <node ref="C8" pin="2"/>
     </net>
     <net code="10" name="Net-(C7-Pad1)">
+      <node ref="D1" pin="1"/>
       <node ref="D2" pin="2"/>
       <node ref="C7" pin="1"/>
-      <node ref="D1" pin="1"/>
     </net>
     <net code="11" name="Net-(C8-Pad1)">
+      <node ref="D3" pin="1"/>
       <node ref="C8" pin="1"/>
       <node ref="D4" pin="2"/>
-      <node ref="D3" pin="1"/>
     </net>
     <net code="12" name="Net-(C6-Pad1)">
       <node ref="D4" pin="1"/>
-      <node ref="C6" pin="1"/>
       <node ref="U1" pin="VI"/>
+      <node ref="C6" pin="1"/>
     </net>
     <net code="13" name="GND">
-      <node ref="R27" pin="2"/>
-      <node ref="C18" pin="2"/>
-      <node ref="R13" pin="2"/>
-      <node ref="U6" pin="1"/>
-      <node ref="Q4" pin="3"/>
-      <node ref="C16" pin="2"/>
-      <node ref="C15" pin="2"/>
       <node ref="Q5" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="U6" pin="1"/>
+      <node ref="C18" pin="2"/>
       <node ref="R24" pin="1"/>
-      <node ref="C3" pin="2"/>
-      <node ref="U3" pin="VI"/>
-      <node ref="U2" pin="1"/>
-      <node ref="J1" pin="3"/>
       <node ref="J1" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U3" pin="VI"/>
       <node ref="R14" pin="2"/>
       <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
     </net>
     <net code="14" name="Net-(C4-Pad1)">
       <node ref="U2" pin="5"/>
       <node ref="C4" pin="1"/>
     </net>
     <net code="15" name="Net-(R1-Pad2)">
-      <node ref="U2" pin="7"/>
       <node ref="R2" pin="1"/>
       <node ref="R1" pin="2"/>
+      <node ref="U2" pin="7"/>
     </net>
     <net code="16" name="Net-(C3-Pad1)">
-      <node ref="U2" pin="6"/>
-      <node ref="C3" pin="1"/>
       <node ref="R2" pin="2"/>
+      <node ref="C3" pin="1"/>
       <node ref="U2" pin="2"/>
+      <node ref="U2" pin="6"/>
     </net>
     <net code="17" name="Net-(POT2-Pad1)">
-      <node ref="PTR1" pin="3"/>
       <node ref="POT2" pin="1"/>
+      <node ref="PTR1" pin="3"/>
     </net>
     <net code="18" name="Net-(POT1-Pad1)">
-      <node ref="POT2" pin="3"/>
       <node ref="POT2" pin="2"/>
       <node ref="POT1" pin="1"/>
+      <node ref="POT2" pin="3"/>
     </net>
     <net code="19" name="Net-(POT1-Pad3)">
-      <node ref="POT1" pin="3"/>
       <node ref="R3" pin="1"/>
+      <node ref="POT1" pin="3"/>
     </net>
     <net code="20" name="Net-(Q2-Pad1)">
-      <node ref="Q2" pin="1"/>
       <node ref="R9" pin="2"/>
+      <node ref="Q2" pin="1"/>
     </net>
     <net code="21" name="Net-(R4-Pad1)">
       <node ref="U4" pin="3"/>
       <node ref="R4" pin="1"/>
     </net>
     <net code="22" name="Net-(POT1-Pad2)">
-      <node ref="R4" pin="2"/>
       <node ref="POT1" pin="2"/>
+      <node ref="R4" pin="2"/>
     </net>
     <net code="23" name="Net-(Q1-Pad1)">
       <node ref="R5" pin="1"/>
       <node ref="Q1" pin="1"/>
     </net>
     <net code="24" name="Net-(Q2-Pad3)">
-      <node ref="R8" pin="1"/>
       <node ref="Q2" pin="3"/>
+      <node ref="R8" pin="1"/>
     </net>
     <net code="25" name="Net-(Q1-Pad3)">
       <node ref="R7" pin="1"/>
@@ -1062,21 +1214,21 @@
     </net>
     <net code="30" name="Net-(C10-Pad2)">
       <node ref="U4" pin="2"/>
-      <node ref="R8" pin="2"/>
       <node ref="R6" pin="2"/>
+      <node ref="R8" pin="2"/>
       <node ref="C10" pin="2"/>
     </net>
     <net code="31" name="Net-(C13-Pad1)">
-      <node ref="R14" pin="1"/>
+      <node ref="C13" pin="1"/>
       <node ref="U5" pin="13"/>
       <node ref="U5" pin="12"/>
-      <node ref="C13" pin="1"/>
+      <node ref="R14" pin="1"/>
     </net>
     <net code="32" name="Net-(C11-Pad1)">
-      <node ref="R12" pin="1"/>
-      <node ref="C11" pin="1"/>
       <node ref="U5" pin="8"/>
+      <node ref="R12" pin="1"/>
       <node ref="U5" pin="9"/>
+      <node ref="C11" pin="1"/>
     </net>
     <net code="33" name="Net-(R11-Pad2)">
       <node ref="U5" pin="4"/>
@@ -1084,8 +1236,8 @@
     </net>
     <net code="34" name="Net-(C11-Pad2)">
       <node ref="U5" pin="3"/>
-      <node ref="C12" pin="2"/>
       <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
     </net>
     <net code="35" name="Net-(R12-Pad2)">
       <node ref="U5" pin="11"/>
@@ -1105,119 +1257,119 @@
     </net>
     <net code="38" name="Net-(C12-Pad1)">
       <node ref="U5" pin="6"/>
-      <node ref="U5" pin="5"/>
       <node ref="C12" pin="1"/>
+      <node ref="U5" pin="5"/>
       <node ref="R13" pin="1"/>
     </net>
-    <net code="39" name="Net-(C20-Pad1)">
-      <node ref="C20" pin="1"/>
-      <node ref="DZ1" pin="1"/>
-      <node ref="R20" pin="1"/>
-    </net>
-    <net code="40" name="Net-(Q4-Pad1)">
-      <node ref="R21" pin="1"/>
-      <node ref="Q4" pin="1"/>
-      <node ref="R24" pin="2"/>
-    </net>
-    <net code="41" name="Net-(L1-Pad2)">
-      <node ref="R20" pin="2"/>
-      <node ref="R19" pin="2"/>
-      <node ref="Q4" pin="2"/>
-      <node ref="L1" pin="2"/>
-    </net>
-    <net code="42" name="Net-(C19-Pad2)">
-      <node ref="U7" pin="6"/>
-      <node ref="C19" pin="2"/>
-    </net>
-    <net code="43" name="Net-(C19-Pad1)">
-      <node ref="R23" pin="2"/>
-      <node ref="R22" pin="1"/>
-      <node ref="C19" pin="1"/>
-      <node ref="U7" pin="5"/>
-    </net>
-    <net code="44" name="Net-(C21-Pad1)">
-      <node ref="C21" pin="1"/>
-      <node ref="R23" pin="1"/>
-    </net>
-    <net code="45" name="Net-(C17-Pad2)">
-      <node ref="C17" pin="2"/>
-      <node ref="U7" pin="8"/>
-    </net>
-    <net code="46" name="Net-(C20-Pad2)">
-      <node ref="C20" pin="2"/>
-      <node ref="U7" pin="2"/>
+    <net code="39" name="Net-(C20-Pad2)">
       <node ref="R22" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="C20" pin="2"/>
     </net>
-    <net code="47" name="Net-(R17-Pad2)">
+    <net code="40" name="Net-(R17-Pad2)">
       <node ref="R17" pin="2"/>
       <node ref="U7" pin="3"/>
     </net>
-    <net code="48" name="Net-(C17-Pad1)">
+    <net code="41" name="Net-(C19-Pad1)">
+      <node ref="R22" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="42" name="Net-(C17-Pad2)">
+      <node ref="C17" pin="2"/>
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="43" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="DZ1" pin="1"/>
+    </net>
+    <net code="44" name="Net-(L1-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="45" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U6" pin="6"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="46" name="Net-(C19-Pad2)">
+      <node ref="U7" pin="6"/>
+      <node ref="C19" pin="2"/>
+    </net>
+    <net code="47" name="Net-(C17-Pad1)">
       <node ref="U7" pin="1"/>
       <node ref="C17" pin="1"/>
     </net>
-    <net code="49" name="Net-(C16-Pad1)">
-      <node ref="C16" pin="1"/>
-      <node ref="U6" pin="5"/>
+    <net code="48" name="Net-(C21-Pad1)">
+      <node ref="R23" pin="1"/>
+      <node ref="C21" pin="1"/>
     </net>
-    <net code="50" name="Net-(PTR2-Pad3)">
+    <net code="49" name="Net-(C16-Pad1)">
+      <node ref="U6" pin="5"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="50" name="Net-(C14-Pad2)">
+      <node ref="C14" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="51" name="Net-(Q4-Pad1)">
+      <node ref="R21" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="52" name="Net-(PTR2-Pad3)">
       <node ref="PTR2" pin="3"/>
       <node ref="R15" pin="1"/>
       <node ref="U6" pin="7"/>
     </net>
-    <net code="51" name="Net-(C14-Pad2)">
-      <node ref="Q3" pin="3"/>
-      <node ref="R21" pin="2"/>
-      <node ref="C14" pin="2"/>
-    </net>
-    <net code="52" name="Net-(R18-Pad2)">
-      <node ref="R18" pin="2"/>
-      <node ref="U6" pin="3"/>
-    </net>
     <net code="53" name="Net-(Q3-Pad1)">
       <node ref="R18" pin="1"/>
-      <node ref="Q3" pin="1"/>
       <node ref="R16" pin="2"/>
+      <node ref="Q3" pin="1"/>
     </net>
-    <net code="54" name="Net-(C15-Pad1)">
-      <node ref="U6" pin="2"/>
-      <node ref="U6" pin="6"/>
-      <node ref="C15" pin="1"/>
-      <node ref="R15" pin="2"/>
+    <net code="54" name="Net-(R18-Pad2)">
+      <node ref="U6" pin="3"/>
+      <node ref="R18" pin="2"/>
     </net>
     <net code="55" name="Net-(C22-Pad2)">
-      <node ref="C22" pin="2"/>
-      <node ref="C23" pin="2"/>
       <node ref="C24" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C22" pin="2"/>
     </net>
     <net code="56" name="Net-(Q5-Pad3)">
-      <node ref="Q5" pin="3"/>
       <node ref="R25" pin="2"/>
+      <node ref="Q5" pin="3"/>
     </net>
     <net code="57" name="Net-(Q5-Pad1)">
-      <node ref="SP1" pin="2"/>
       <node ref="Q5" pin="1"/>
+      <node ref="SP1" pin="2"/>
     </net>
     <net code="58" name="Net-(POT3-Pad2)">
-      <node ref="R25" pin="1"/>
       <node ref="POT3" pin="2"/>
+      <node ref="R25" pin="1"/>
     </net>
     <net code="59" name="Net-(C25-Pad1)">
-      <node ref="R26" pin="2"/>
+      <node ref="C25" pin="1"/>
       <node ref="U8" pin="2"/>
       <node ref="U8" pin="6"/>
-      <node ref="C25" pin="1"/>
+      <node ref="R26" pin="2"/>
     </net>
     <net code="60" name="Net-(C25-Pad2)">
       <node ref="C27" pin="2"/>
-      <node ref="U8" pin="1"/>
       <node ref="R27" pin="1"/>
       <node ref="C26" pin="2"/>
+      <node ref="U8" pin="1"/>
       <node ref="C25" pin="2"/>
     </net>
     <net code="61" name="Net-(C26-Pad1)">
-      <node ref="U8" pin="5"/>
       <node ref="C26" pin="1"/>
+      <node ref="U8" pin="5"/>
     </net>
     <net code="62" name="Net-(POT3-Pad3)">
       <node ref="U8" pin="3"/>
