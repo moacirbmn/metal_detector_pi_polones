@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "/home/moacirbmn/Documentos/metal_detector_pi_polones/Detector de Metais/detector_metais.sch")
-    (date "dom 10 nov 2019 10:26:07 -03")
+    (source "/home/moacirbmn/Documents/metal_detector_pi_polones/Detector de Metais/detector_metais.sch")
+    (date "seg 11 nov 2019 14:46:12 -03")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -78,7 +78,7 @@
       (tstamp 59DFA391))
     (comp (ref U2)
       (value NE555)
-      (footprint Package_SO:HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.4x3.2mm)
+      (footprint Package_SO:SOIC-8_3.9x4.9mm_P1.27mm)
       (libsource (lib detector_metais-rescue) (part NE555) (description ""))
       (sheetpath (names /Fonte/) (tstamps /59DF3F23/))
       (tstamp 59DFCA5D))
@@ -117,6 +117,7 @@
       (tstamp 59DFD52E))
     (comp (ref C3)
       (value 10nF)
+      (footprint Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm)
       (datasheet Falta)
       (libsource (lib detector_metais-rescue) (part C) (description ""))
       (sheetpath (names /Fonte/) (tstamps /59DF3F23/))
@@ -219,7 +220,7 @@
       (tstamp 59E02ACF))
     (comp (ref Q1)
       (value "BC807-40 ou BC327")
-      (footprint TO_SOT_Packages_SMD:SOT-23)
+      (footprint Package_TO_SOT_THT:TO-92)
       (libsource (lib detector_metais-rescue) (part BC807-40) (description ""))
       (sheetpath (names /Amp_741/) (tstamps /59E029C8/))
       (tstamp 59E02C56))
@@ -261,7 +262,7 @@
       (tstamp 59DF93C6))
     (comp (ref Q2)
       (value BF245A)
-      (footprint TO_SOT_Packages_THT:TO-92_Molded_Narrow)
+      (footprint Package_TO_SOT_THT:TO-92)
       (datasheet Falta)
       (libsource (lib detector_metais-rescue) (part BF245A) (description ""))
       (sheetpath (names /Amp_741/) (tstamps /59E029C8/))
@@ -835,7 +836,7 @@
         (pin (num 8) (name NC) (type NotConnected)))))
   (libraries
     (library (logical detector_metais-rescue)
-      (uri "/home/moacirbmn/Documentos/metal_detector_pi_polones/Detector de Metais/detector_metais-rescue.lib")))
+      (uri "/home/moacirbmn/Documents/metal_detector_pi_polones/Detector de Metais/detector_metais-rescue.lib")))
   (nets
     (net (code 1) (name /4011/S_4011-555)
       (node (ref C14) (pin 1))
